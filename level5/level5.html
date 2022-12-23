@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="level5.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <div>
+      <div id="one" class="type1">
+        <div id="onein" class="inner-div">
+          <h2 class="question">Question Come Here</h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="ans1" class="answer" />
+              <label for="ans1" id="option1">Answer Option 1</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans2" class="answer" />
+              <label for="ans2" id="option2">Answer Option 2</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans3" class="answer" />
+              <label for="ans3" id="option3">Answer Option 3</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans4" class="answer" />
+              <label for="ans4" id="option4">Answer Option 4</label>
+            </li>
+          </ul>
+          <button id="submit1" class="submit">submit</button>
+        </div>
+      </div>
+
+      <div id="two" class="type2">
+        <div id="twoin" class="fillinner-div">
+          <h2 class="fillquestion">Question Come Here 2</h2>
+          <input type="text" name="fillanswer" id="fillblankanswer" class="inputbox"/>
+          <button id="submit2" class="submit">submit</button>
+        </div>
+      </div>
+
+      <div id="three" class="type3">
+        <div id="threein" class="increinner-div">
+          <h2 class="increquestion">Question Come Here 3</h2>
+          <input type="text" name="fillanswer" id="increblankanswer" class="inputbox"/>
+          <button id="submit3" class="submit">submit</button>
+        </div>
+      </div>
+
+      <div id="four" class="type4">
+        <div id="fourin" class="dadinner-div">
+          <h2 class="dadquestion">Rnak In Order As Your Choice</h2>
+        <section class="bodyes">
+          <div class="choice">
+            <p id="first" class="element">1</p>
+            <p id="second" class="element">2</p>
+            <p id="third" class="element">3</p>
+            <p id="fourth" class="element">4</p>
+          </div>
+        </section>
+          <button id="submit4" class="submit submitone">submit</button>
+        </div>
+      </div>
+
+      <div id="five" class="type5">
+        <div id="fivein" class="mulinner-div">
+          <h2 class="mulquestion">Question Come Here</h2>
+          <ul>
+            <li>
+              <input type="radio" id="ans1" class="answer" />
+              <label for="ans1" id="muloption1">Answer Option 1</label>
+            </li>
+            <li>
+              <input type="radio"  id="ans2" class="answer" />
+              <label for="ans2" id="muloption2">Answer Option 2</label>
+            </li>
+            <li>
+              <input type="radio"  id="ans3" class="answer" />
+              <label for="ans3" id="muloption3">Answer Option 3</label>
+            </li>
+            <li>
+              <input type="radio" id="ans4" class="answer" />
+              <label for="ans4" id="muloption4">Answer Option 4</label>
+            </li>
+          </ul>
+          <button id="submit5" class="submit">submit</button>
+        </div>
+      </div>
+      <div id="showScore" class="scoreArea">
+
+      </div>
+    </div>
+
+    <script src="level5.js"></script>
+  </body>
+</html>

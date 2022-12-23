@@ -1,0 +1,168 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.bgimg{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.bgimg{
+    position: absolute;
+}
+.abc{
+    display: flex;
+}
+.levels5{
+    width: 20%;
+    min-height: 99vh;
+    /* border: 1px solid black; */
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.level12{
+    height: 150px;
+    position: relative;
+    
+}
+
+.level11{
+    top: 70%;
+    -webkit-animation: MoveUpDown1 8s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown1 {
+    0% {
+        top: 70%;
+    }
+    25%{
+        top: 50%;
+    }
+    50%{
+        top: 70%;
+    }
+    75%{
+        top: 90%;
+    }
+    100% { 
+        top: 70%;
+    }
+}
+.level22{
+    bottom: 50%;
+    -webkit-animation: MoveUpDown2 8s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown2 {
+    0% {
+        bottom: 50%;
+    }
+    25%{
+        bottom: 30%;
+    }
+    50%{
+        bottom: 50%;
+    }
+    75%{
+        bottom: 70%;
+    }
+    100% { 
+        bottom: 50%;
+    }
+}
+.level32{
+    -webkit-animation: MoveUpDown3 8s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown3 {
+    0% {
+        top: 0%;
+    }
+    25%{
+        top: -20%;
+    }
+    50%{
+        top: 0%;
+    }
+    75%{
+        top: 20%;
+    }
+    100% { 
+        top: 0%;
+    }
+}
+.level42{
+    top: 60%;
+    -webkit-animation: MoveUpDown4 8s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown4 {
+    0% {
+        top: 60%;
+    }
+    25%{
+        top: 80%;
+    }
+    50%{
+        top: 60%;
+    }
+    75%{
+        top: 40%;
+    }
+    100% { 
+        top: 60%;
+    }
+}
+.level52{
+    bottom: 60%;
+    -webkit-animation: MoveUpDown5 8s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown5 {
+    0% {
+        bottom: 60%;
+    }
+    25%{
+        bottom: 40%;
+    }
+    50%{
+        bottom: 60%;
+    }
+    75%{
+        bottom: 80%;
+    }
+    100% { 
+        bottom: 60%;
+    }
+}
+
+
+
+@media (max-width:1000px) {
+    .level12{
+        height:100px
+    }
+    
+}
+
+
+
+@media (min-width:1920px) {
+    .level12{
+        height:250px
+    }
+    
+}
